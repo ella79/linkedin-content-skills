@@ -10,7 +10,7 @@ The week on one page, so posting is a decision made once, not every morning.
 ## Method
 - Cadence: 2-5 posts a week with at least 24h spacing (what LinkedIn data
   supports). Default Monday / Wednesday / Friday unless `voice.md` says otherwise.
-- Rotate topics from `voice.md` and hook formulas from `tools/hooks.json`; never
+- Rotate topics from `voice.md` and hook formulas from `li-human/hooks.json`; never
   repeat last week's thesis or hook.
 - Each slot gets: the topic, the format (text / carousel / repurpose), the hook
   formula to try, and a one-line angle. Research happens when the post is written,

@@ -5,18 +5,20 @@ description: Humanize a LinkedIn draft before anyone reads it. Runs two real scr
 
 # li-human
 
-The humanizer. Two scripts that actually run, in `tools/`. Run it, do not eyeball.
+The humanizer. Two scripts that actually run, and they live in this skill's own
+folder so they travel with it on install. Run it, do not eyeball.
 
 ## Run it
-From the kit root (or wherever you installed `tools/`):
+The scripts sit next to this SKILL.md (e.g. `~/.claude/skills/li-human/` after a
+global install, or `.claude/skills/li-human/` project-local):
 
 ```
-python3 tools/humanize.py draft.txt --report
-python3 tools/detect.py draft.txt
+python3 ~/.claude/skills/li-human/humanize.py draft.txt --report
+python3 ~/.claude/skills/li-human/detect.py draft.txt
 ```
 
 - `humanize.py` cleans zero-width/invisible characters, converts em-dashes and
-  fancy typography, and removes the slop phrases listed in `tools/slop.json`.
+  fancy typography, and removes the slop phrases listed in `li-human/slop.json`.
   `--report` prints what changed.
 - `detect.py` scores the draft 0-100 across five checks: burstiness (sentence
   length variation), specificity (concrete detail), slop density, typographic
@@ -25,11 +27,11 @@ python3 tools/detect.py draft.txt
 
 ## If Python is not available
 Apply the same rules by hand: delete zero-width/invisible chars, turn every
-em-dash into a comma or two sentences, strip the terms in `tools/slop.json`,
+em-dash into a comma or two sentences, strip the terms in `li-human/slop.json`,
 and raise burstiness and concreteness.
 
 ## Tune it to one person
-`tools/slop.json` is editable. If it strips a word the author genuinely uses
+`li-human/slop.json` is editable. If it strips a word the author genuinely uses
 (declared in `voice.md`), remove that word from `slop.json`. The voice file wins.
 
 ## Honest about limits

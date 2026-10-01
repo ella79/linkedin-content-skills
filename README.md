@@ -11,8 +11,8 @@ sounding like a template.
 ## What makes it different
 - **Voice-agnostic.** The machinery is shared; your voice lives in one file
   (`voice.md`) that you fill in and keep private. Every skill reads it.
-- **A real humanizer.** Two scripts that actually run (`tools/humanize.py`,
-  `tools/detect.py`) strip invisible characters, em-dashes and 100+ slop phrases,
+- **A real humanizer.** Two scripts that actually run (`skills/li-human/humanize.py`,
+  `skills/li-human/detect.py`) strip invisible characters, em-dashes and 100+ slop phrases,
   and score the draft on five human-vs-machine checks. Not vibes.
 - **Grounded.** The writing skills research the web first and never invent
   numbers about you.
@@ -39,12 +39,14 @@ sounding like a template.
 ## Install
 Copy the skills into Claude Code, global or project-local.
 
-Global:
+Global (available in every Claude Code session, no project needed - you can
+delete the clone afterwards):
 ```bash
 git clone https://github.com/ella79/linkedin-content-skills.git
 cp -r linkedin-content-skills/skills/li-* ~/.claude/skills/
-cp -r linkedin-content-skills/tools ~/.claude/linkedin-tools   # keep the scripts together
 ```
+The humanizer scripts live inside `skills/li-human/`, so they come along with the
+copy. Nothing else to wire up.
 
 Project-local: copy the same `skills/li-*` folders into your repo's
 `.claude/skills/`.
@@ -67,7 +69,7 @@ everything comes out sounding like everyone else.
 repo. The repo ships only blank templates.
 
 ## Requirements
-- Python 3 for `tools/humanize.py` and `tools/detect.py` (standard library only).
+- Python 3 for `skills/li-human/humanize.py` and `skills/li-human/detect.py` (standard library only).
 - Claude Code to run the skills as commands (optional, see above).
 
 ## No publishing step, on purpose

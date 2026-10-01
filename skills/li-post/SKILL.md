@@ -23,7 +23,7 @@ line 1 must survive alone.
 - One punchy line, not two. Contrarian claim, a sharp fact, a short real moment,
   or one line of code that stops the target reader.
 - No throat-clearing. Line 2 is the payoff of line 1, not setup.
-- Use `tools/hooks.json` (21 formulas, each with template, example, purpose, and
+- Use `li-human/hooks.json` (21 formulas, each with template, example, purpose, and
   how it usually gets ruined). Rotate formulas; do not reuse the last one.
 - Always give 2-3 alternative hooks: at least one broad, one sharper/technical.
 

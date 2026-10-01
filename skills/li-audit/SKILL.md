@@ -16,7 +16,7 @@ not what should have worked.
 ## Method
 - Rank by **engagement per impression** and **reach multiple**, never by raw
   impressions (big numbers hide weak posts).
-- Find what the top quartile share: hook formula (`tools/hooks.json`), topic,
+- Find what the top quartile share: hook formula (`li-human/hooks.json`), topic,
   format (text/carousel), length, posting time.
 - Find what the bottom quartile share. Say plainly what to stop doing.
 - Separate signal from noise: one viral post is not a pattern.
