@@ -10,6 +10,8 @@ drafts/
 *.draft.txt
 log.md
 plan.md
+learned.md
+!templates/learned.example.md
 *.png
 *.jpg
 *.pdf

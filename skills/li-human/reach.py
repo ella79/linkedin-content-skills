@@ -38,8 +38,12 @@ def check(text):
          "Line 1 should carry one idea, not three sentences.")
     body_no_tags = re.sub(r'(?<!\w)#\w+', '', body)
     links = URL.findall(body_no_tags)
-    rule(not links, False, "NO LINK IN BODY",
-         f"{len(links)} link-like token(s). Links in the body cost 50-70% of reach. Move to the first comment."
+    # Documented as a 50-70% reach penalty, and still the right default. But it is
+    # a default, not a law: a post strong enough to be reshared can outrun it, and
+    # this account has one that did. So it warns rather than blocks, and the
+    # author decides with learned.md in hand.
+    rule(not links, True, "LINK IN BODY",
+         f"{len(links)} link-like token(s). Usually costs 50-70% of reach; the first comment is safer."
          if links else "No external link in the body.")
     rule(150 <= words <= 300, 120 <= words <= 350, "LENGTH FOR DWELL",
          f"{words} words. Target 150-300, the dwell window.")

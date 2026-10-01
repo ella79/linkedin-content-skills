@@ -41,9 +41,12 @@ as CTA. Dense bullets go below the fold.
 These are mechanics, not style. Breaking them costs reach no matter how good the
 writing is.
 
-- **No link in the body. Ever.** A post with an external link reaches 50-70% fewer
-  people. Put the URL in a separate first comment and deliver that comment text
-  alongside the post, so the author pastes it right after publishing.
+- **Default the link to the first comment.** An external link in the body is
+  documented to cost 50-70% of reach, so deliver the first-comment text alongside
+  the post. Treat it as a strong default rather than a law: this account's best
+  post by a wide margin carried a link preview and still reached 37x the follower
+  count, which says a post worth resharing can outrun the penalty. Check
+  `learned.md` before deciding, and if the link stays in the body, say why.
 - **150-300 words.** Long enough to earn the "see more" click, short enough to be
   read. Dwell time carries the most weight of any ranking signal.
 - **The target is 8 seconds, not 5.** Under 2 seconds on a post is a scroll-past
