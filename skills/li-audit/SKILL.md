@@ -26,6 +26,19 @@ not what should have worked.
 2. What the winners share (3-5 concrete patterns).
 3. What to stop (2-3 things), each with the evidence.
 4. Next week's bet: the format/topic/hook to try more of.
+5. **Write the findings to `~/.claude/linkedin/learned.md`**, one short line each,
+   phrased so a later skill can act on them: which hook formulas landed, which
+   topics drew the real audience, which formats to stop. This file is what
+   `li-post` and `li-plan` read. An audit that ends in a chat message and writes
+   nothing back teaches the kit nothing.
+
+## Hands off to
+-> `~/.claude/linkedin/learned.md`: write what the evidence supports, as short
+lines a later skill can read (hook formulas that worked, topics that landed,
+formats that did not, anything to stop).
+-> `li-plan` for next week's slots, which reads that file.
+This is the only skill that closes the loop, so an audit that produces findings
+and writes nothing back has not finished.
 
 ## Preconditions
 - Real numbers exist: an analytics export, or reaction and impression counts.

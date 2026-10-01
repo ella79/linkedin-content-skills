@@ -83,6 +83,10 @@ A designed card can read as marketing, and a technical reader discounts
 marketing. When the post makes a claim that an artefact can prove, show the
 artefact. The card is there to make the claim visible, not to dress it up.
 
+## Hands off to
+-> back to `li-post` or `li-carousel`, which owns the publish step. This skill
+produces a file, never a decision about when to post it.
+
 ## Preconditions
 - The post text exists, so the image can carry its claim rather than decorate it.
 

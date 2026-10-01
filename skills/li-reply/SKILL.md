@@ -28,6 +28,11 @@ voice (`~/.claude/linkedin/voice.md`).
 ## Output
 A ranked list: each comment, its bucket, and the reply to paste.
 
+## Hands off to
+-> `li-audit`, later. The thread is evidence: which comments the post earned, and
+whether the question at the end did any work. Note anything worth keeping in the
+log line for that post.
+
 ## Preconditions
 - The comments under her own post are pasted.
 - `voice.md` exists.

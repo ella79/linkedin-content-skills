@@ -32,6 +32,10 @@ The author pastes their current headline, About section, experience bullets, and
    proposed text, so the author approves before changing anything.
 3. Run `li-human` on every rewrite. No invented numbers.
 
+## Hands off to
+This is where the chain ends, after she approves the rewrites. If the audit later
+shows a topic cohort forming, come back and align the headline with it.
+
 ## Preconditions
 - Current headline, About and experience are pasted.
 

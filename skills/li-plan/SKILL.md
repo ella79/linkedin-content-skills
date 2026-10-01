@@ -31,6 +31,12 @@ The week on one page, so posting is a decision made once, not every morning.
 3. Write it to `~/.claude/linkedin/plan.md` so `li-audit` can check it later.
 Never auto-post; each slot is still drafted and approved on its day.
 
+## Hands off to
+-> `li-engagers` for the shortlist, then
+-> `li-post` or `li-carousel` per slot, on the day of that slot, not in advance.
+Reads `learned.md` from `li-audit` first, so last month's evidence shapes this
+week's plan.
+
 ## Preconditions
 - `voice.md` exists with its topic list.
 - `log.md` read, or she was asked what went out recently.

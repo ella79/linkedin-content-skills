@@ -29,6 +29,10 @@ about the person (a post, a shared interest, a mutual).
 ## Output
 The four messages, copy-ready, with the suggested spacing.
 
+## Hands off to
+This is where the chain ends. She sends the messages. If a reply comes back and
+turns into a conversation, that is `li-inbox` next, not this skill again.
+
 ## Preconditions
 - A real, specific reason to contact this person exists. Without one, stop.
 - `voice.md` exists.

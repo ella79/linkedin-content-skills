@@ -94,6 +94,11 @@ The scores are local heuristics, not GPTZero or Originality. They catch what
 those tools key on; they do not promise their verdict. The point is a draft
 that reads like a person wrote it, because one did.
 
+## Hands off to
+-> back to whichever skill called it, with the verdicts. On a failure, name the
+rule that failed and return control; do not rewrite the draft here, because the
+skill that wrote it owns the voice.
+
 ## Preconditions
 - A draft file exists. For `claims.py`, a sources file exists too.
 

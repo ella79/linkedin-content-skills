@@ -33,6 +33,11 @@ to hand to `li-post`.
 Mode 1: the questions, then the updated Story Bank section.
 Mode 2: the five questions, then the filled post spine.
 
+## Hands off to
+-> `li-post`, carrying the post spine (hook candidate, one idea, anchor,
+trade-off, takeaway) and any new story bank entries. The whole point of this
+skill is that the next draft has real material, so do not stop at the answers.
+
 ## Preconditions
 - Nothing. This skill exists precisely for when there is no material yet.
 

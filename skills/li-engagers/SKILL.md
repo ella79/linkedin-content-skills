@@ -24,6 +24,11 @@ they want on their radar). Never scrape the feed.
 A table: who/what, why them, the comment angle. Hand each row to `li-comment`
 when it is time to write. Spread them across the week; feed `li-plan`.
 
+## Hands off to
+-> `li-comment`, one entry at a time, when she is ready to engage. Also feeds
+`li-plan`, because the engagement window sits beside the posting slot: commenting
+just before publishing is what makes the first 60 to 90 minutes work.
+
 ## Preconditions
 - Candidate posts or names are pasted. Never scraped.
 - `voice.md` exists, so relevance is judged against her actual audience.

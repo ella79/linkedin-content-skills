@@ -79,18 +79,22 @@ honest trade-off. If a draft is a 7 or 8, revise before showing it.
 
 ## Steps
 1. Pick/confirm a topic from `voice.md` (rotate; not the last one).
-2. Research the web first. Write what you find into a sources file as you go,
+2. Read `~/.claude/linkedin/learned.md` if it exists. It holds what `li-audit`
+   found actually worked on this account: hook formulas that landed, topics that
+   did not, things to stop. Prefer what the evidence supports over what the
+   cheat-sheet suggests, and say which finding you leaned on.
+3. Research the web first. Write what you find into a sources file as you go,
    quotes and URLs, because gate three reads it. Note 1-3 links to cite.
-3. Draft per the shape above.
-4. Self-check against the quality bar; revise if under 10/10.
-5. Run `li-human`, all three gates, all mandatory:
+4. Draft per the shape above.
+5. Self-check against the quality bar; revise if under 10/10.
+6. Run `li-human`, all three gates, all mandatory:
    `humanize.py` and `detect.py` until it reads clean, `reach.py` until nothing
    FAILS, and `claims.py --sources` until nothing is UNBACKED. Reporting a draft as
    ready without running them is not allowed. None of them predicts engagement:
    two remove the reasons a post gets buried or spotted, and the third stops an
    unbacked number going out under the author's name.
-6. Deliver: the post, 2-3 alternative hooks, and a "Sources:" list.
-7. After the author publishes, append one line to `~/.claude/linkedin/log.md`:
+7. Deliver: the post, 2-3 alternative hooks, and a "Sources:" list.
+8. After the author publishes, append one line to `~/.claude/linkedin/log.md`:
    date, title/slug, topic, the hook formula used, and the post URL. That log is
    what `li-audit` reads and what step 2 of the next post checks against.
 
@@ -99,6 +103,13 @@ Return (1) the post, copy-ready; (2) the **first comment** text carrying the lin
 and sources, to paste immediately after publishing; (3) 2-3 alternative hooks
 (broad + technical); (4) a two-line golden hour plan; (5) Sources as markdown
 links. No em-dash in the body. Keep the post itself to 150-300 words.
+
+## Hands off to
+-> `li-card` for the image, which needs the finished text so it can carry the
+claim rather than decorate it.
+-> `li-human` for all three gates. Nothing leaves before they pass.
+-> she publishes, then the log line is appended, then
+-> `li-reply` for the first 60 to 90 minutes, which is where velocity is won.
 
 ## Preconditions
 - `~/.claude/linkedin/voice.md` exists and is filled in.

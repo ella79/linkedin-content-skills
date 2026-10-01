@@ -29,6 +29,11 @@ The author pastes a post (theirs or someone else's) that performed well.
 ## Output
 The five sections above, with the blank template ready to hand to `li-post`.
 
+## Hands off to
+-> `li-post`, carrying the blank template extracted from the teardown, plus the
+list of tells not to copy. If the teardown was of her own post, also append the
+finding to `~/.claude/linkedin/learned.md` so `li-plan` can prefer that formula.
+
 ## Preconditions
 - The post being torn down is pasted.
 

@@ -28,6 +28,10 @@ their voice (`~/.claude/linkedin/voice.md`) that adds something.
 ## Output
 The comment, copy-ready, plus one shorter alternative.
 
+## Hands off to
+-> `li-engagers` for the next entry, if working through a list. Otherwise this is
+where the chain ends: she pastes it herself.
+
 ## Preconditions
 - The post being commented on is pasted. Never scraped from the feed.
 - `voice.md` exists.

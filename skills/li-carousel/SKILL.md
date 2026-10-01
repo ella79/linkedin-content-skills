@@ -29,6 +29,11 @@ a single claim, it is a text post (`li-post`), not a carousel.
 2. The post caption (hook + context + sources).
 3. A PDF to upload (build it from the slide copy; 1080x1350 portrait works well).
 
+## Hands off to
+-> `li-card` for the slides and the PDF at 1080x1350.
+-> `li-human` for the caption gates.
+-> she publishes, log line, then `li-reply` in the first 60 to 90 minutes.
+
 ## Preconditions
 - `voice.md` exists. The idea genuinely has a sequence; a single claim is a text post.
 - Research done and written to a sources file.

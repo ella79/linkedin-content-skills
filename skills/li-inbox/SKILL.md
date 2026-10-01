@@ -29,6 +29,10 @@ author learns to read them too.
 A table: message summary, bucket, the tell, and the reply to paste. Run
 `li-human` on anything longer than a line.
 
+## Hands off to
+-> `li-dm` for any lead that needs a real sequence rather than a single reply.
+Everything else ends here, with drafts she sends herself.
+
 ## Preconditions
 - The messages are pasted. Never scraped.
 - `voice.md` exists.

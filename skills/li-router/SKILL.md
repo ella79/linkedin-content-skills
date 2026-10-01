@@ -73,6 +73,11 @@ It does not write. It does not decide whether an idea is worth posting, and it
 does not predict engagement. It routes, it checks, and it refuses to call
 something finished when it is not.
 
+## Hands off to
+This layer starts the chain and stays out of the way. Hand the request to the
+skill chosen in step 1, then follow that skill's own hand-off rather than
+deciding again here.
+
 ## Preconditions
 - The request has been read in full, including anything pasted with it.
 

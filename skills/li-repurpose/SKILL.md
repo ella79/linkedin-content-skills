@@ -25,6 +25,11 @@ One source in, a week of posts out, each one able to stand on its own.
 4-6 copy-ready posts, each with its hook and a one-line note on the angle it
 takes, plus a suggested posting order.
 
+## Hands off to
+-> `li-post` once per angle, each with its own spine, and
+-> `li-plan` for the spacing, since four posts published together cannibalise
+each other. Never run the post chain for all of them in one sitting.
+
 ## Preconditions
 - The source asset is pasted or linked, not described from memory.
 - `voice.md` exists.
