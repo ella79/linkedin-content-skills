@@ -40,7 +40,7 @@ def check(text):
          f"{len(links)} link-like token(s). Links in the body cost 50-70% of reach. Move to the first comment."
          if links else "No external link in the body.")
     rule(150 <= words <= 300, 120 <= words <= 350, "LENGTH FOR DWELL",
-         f"{words} words. Target 150-300: long enough to earn 'see more', short enough to finish.")
+         f"{words} words. Target 150-300, the dwell window.")
     rule(len(tags) <= 2, len(tags) <= 3, "HASHTAGS",
          f"{len(tags)} hashtags. 0-2 performs the same as 5+, so extras are noise.")
     rule(body.rstrip().endswith("?") or any(l.strip().endswith("?") for l in lines[-3:]),
