@@ -1,0 +1,27 @@
+# Your voice and private material never belong in the repo.
+# Copy templates/voice.md to ~/.claude/linkedin/voice.md and fill it there.
+voice.md
+story-bank.md
+!templates/voice.md
+!templates/story-bank.md
+
+# Local drafts, logs and generated artifacts
+drafts/
+*.draft.txt
+log.md
+plan.md
+*.png
+*.jpg
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
