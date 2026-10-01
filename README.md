@@ -64,6 +64,10 @@ Fill `voice.md` in, or paste three of your own posts into Claude and say
 "write my voice.md from these". Every skill reads that file. Skip it and
 everything comes out sounding like everyone else.
 
+**Your topics live there too.** Set what you post about in the "Topics I post
+about" section of `voice.md`; `li-post`, `li-plan` and `li-hooks` read that list.
+The repo ships only a blank template, so your topics stay in your private copy.
+
 **Your voice stays yours.** The filled `voice.md` and `story-bank.md` live under
 `~/.claude/linkedin/` and are gitignored here, so they never end up in a public
 repo. The repo ships only blank templates.
