@@ -17,7 +17,11 @@ voice (`~/.claude/linkedin/voice.md`).
 5. **Noise** - spam, pods, empty praise. Skip or a one-word acknowledgement.
 
 ## Rules
-- First hour matters most for reach; prioritise speed on leads and substance.
+- The first 60 to 90 minutes decide more than the eventual total, and a reply
+  from the author extends distribution on its own. Answer leads and substance in
+  that window even if the reply is short.
+- Write replies worth more than a nod. A comment over four words counts for more
+  than a generic one, and that applies to yours as much as to theirs.
 - Each reply earns its place: add, ask, or move it forward. No "Thanks!" alone.
 - Keep the author's register. Run `li-human` on anything longer than a line.
 

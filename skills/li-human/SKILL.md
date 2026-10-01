@@ -53,7 +53,9 @@ python3 ~/.claude/skills/li-human/reach.py draft.txt
 
 It checks the mechanics, not the taste: hook length against the ~140 char mobile
 cut, a link in the body (50-70% less reach), 150-300 words for dwell, 0-2
-hashtags, and a closing question. It exits non-zero while anything FAILS, so a
+hashtags, a closing question, whether that question can be answered in one word,
+and the rough read time. Under 2 seconds on a post is a scroll-past worth nothing,
+8 seconds or more is a strong signal, so the aim is a post with room to get there. It exits non-zero while anything FAILS, so a
 draft cannot quietly ship with a reach-killing mistake in it.
 
 Run both. A post that passes `detect.py` and fails `reach.py` is well written and

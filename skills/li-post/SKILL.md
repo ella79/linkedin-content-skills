@@ -46,6 +46,17 @@ writing is.
   alongside the post, so the author pastes it right after publishing.
 - **150-300 words.** Long enough to earn the "see more" click, short enough to be
   read. Dwell time carries the most weight of any ranking signal.
+- **The target is 8 seconds, not 5.** Under 2 seconds on a post is a scroll-past
+  and scores nothing at all. 3 to 8 seconds is a mild positive. Past 8 seconds the
+  signal turns strong. The hook stops the scroll; what holds someone past the
+  "see more" is structure, so give the opening a reason to expand and put the
+  payoff below the fold, not above it.
+- **Velocity beats volume.** Reactions and comments inside the first 60 to 90
+  minutes matter more than the eventual total, and the author's own replies extend
+  distribution further. Plan to be present for that window, not just to publish.
+- **Ask something that cannot be answered in one word.** A comment over four words
+  counts for more than a generic one, so close on what/how/why rather than a
+  question that takes a yes.
 - **0-2 hashtags.** They test identical to 5+, so they buy nothing. Never a wall.
 - **Image, when there is one: 1080x1350 (4:5) or 1080x1080.** Portrait and square
   fill far more of a phone screen than landscape, and screen time is dwell time.
