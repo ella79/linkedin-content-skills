@@ -38,7 +38,7 @@ sounding like a template.
 | `li-hooks` | Takes apart a post that worked: formula, build, why, a blank template. |
 | `li-engagers` | The ~10 people and posts worth a real comment this week. |
 | `li-card` | The post image, at the size the feed rewards. Portrait 1080x1350, stat / quote / terminal layouts. |
-| `li-human` | The humanizer plus the reach gate. Two scripts that run. Used by every writing skill. |
+| `li-human` | Three gates that run: human enough, will the feed carry it, and is any of it backed. |
 
 ## Install
 Copy the skills into Claude Code, global or project-local.

@@ -61,6 +61,25 @@ draft cannot quietly ship with a reach-killing mistake in it.
 Run both. A post that passes `detect.py` and fails `reach.py` is well written and
 will be seen by almost nobody.
 
+## The third gate: claims.py
+The first two gates do not care whether a word of the draft is true. A confident
+wrong number passes both.
+
+```
+python3 ~/.claude/skills/li-human/claims.py draft.txt --sources research.txt
+```
+
+It cannot verify the world. It enforces something narrower and still useful: a
+factual claim may not leave the draft unless the research actually contains it.
+Every number in the post has to appear in the sources file, every named study or
+company too, and **a number in a sentence about the author has to come from the
+story bank**, because an invented personal metric is the easiest thing to write
+and the hardest thing to take back.
+
+This means the sources file exists **before** the draft. Paste the quotes and the
+URLs while researching. If there is no sources file, the gate refuses to run,
+which is the correct answer to drafting from memory.
+
 ## If Python is not available
 Apply the same rules by hand: delete zero-width/invisible chars, turn every
 em-dash into a comma or two sentences, strip the terms in `li-human/slop.json`,
