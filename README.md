@@ -110,4 +110,4 @@ voice-agnostic, grounded-first, no publishing step, with the scripts and skill
 prompts rewritten.
 
 ## License
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE.md).
