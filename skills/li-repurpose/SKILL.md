@@ -24,3 +24,13 @@ One source in, a week of posts out, each one able to stand on its own.
 ## Output
 4-6 copy-ready posts, each with its hook and a one-line note on the angle it
 takes, plus a suggested posting order.
+
+## Preconditions
+- The source asset is pasted or linked, not described from memory.
+- `voice.md` exists.
+
+## Done when (verify, do not assume)
+- Claims, numbers, stories and quotable lines were extracted and counted **before** writing.
+- 4-6 posts, each standing alone without the source.
+- No two share a thesis or reuse a line, checked against each other and the log.
+- If the asset yielded fewer than four real angles, that was said plainly instead of padding.

@@ -28,3 +28,12 @@ The author pastes a post (theirs or someone else's) that performed well.
 
 ## Output
 The five sections above, with the blank template ready to hand to `li-post`.
+
+## Preconditions
+- The post being torn down is pasted.
+
+## Done when (verify, do not assume)
+- The formula is named from `li-human/hooks.json`, or the closest match is stated as such.
+- The build is described line by line, and why it worked names a mechanism, not "it was engaging".
+- The template is slots, never the original wording.
+- The AI tells in it are named so they are not copied.

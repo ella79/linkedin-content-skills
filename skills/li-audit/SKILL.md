@@ -26,3 +26,13 @@ not what should have worked.
 2. What the winners share (3-5 concrete patterns).
 3. What to stop (2-3 things), each with the evidence.
 4. Next week's bet: the format/topic/hook to try more of.
+
+## Preconditions
+- Real numbers exist: an analytics export, or reaction and impression counts.
+- Without them, stop and ask. A post-mortem on guessed data is worse than none.
+
+## Done when (verify, do not assume)
+- Ranked by engagement per impression and reach multiple, never raw impressions.
+- Patterns are drawn from at least the top and bottom quartile, not one viral post.
+- What to stop is stated plainly, each with the evidence behind it.
+- Findings written back so `li-post` and `li-plan` can read them.

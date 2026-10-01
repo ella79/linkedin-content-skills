@@ -28,3 +28,13 @@ about the person (a post, a shared interest, a mutual).
 
 ## Output
 The four messages, copy-ready, with the suggested spacing.
+
+## Preconditions
+- A real, specific reason to contact this person exists. Without one, stop.
+- `voice.md` exists.
+
+## Done when (verify, do not assume)
+- Invite note is <=200 characters and references something real about them.
+- First message gives before it asks. No pitch.
+- Exactly two follow-ups, with spacing, and the second closes gracefully.
+- Nothing was sent. She sends them.

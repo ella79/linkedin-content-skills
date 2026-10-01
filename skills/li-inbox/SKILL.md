@@ -28,3 +28,12 @@ author learns to read them too.
 ## Output
 A table: message summary, bucket, the tell, and the reply to paste. Run
 `li-human` on anything longer than a line.
+
+## Preconditions
+- The messages are pasted. Never scraped.
+- `voice.md` exists.
+
+## Done when (verify, do not assume)
+- Every message is bucketed, and **the tell that classified it is named**, so she learns the pattern.
+- Each bucket got the reply that fits it, including a kind boundary for asks.
+- Nothing was sent.

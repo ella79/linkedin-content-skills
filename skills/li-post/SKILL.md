@@ -99,3 +99,15 @@ Return (1) the post, copy-ready; (2) the **first comment** text carrying the lin
 and sources, to paste immediately after publishing; (3) 2-3 alternative hooks
 (broad + technical); (4) a two-line golden hour plan; (5) Sources as markdown
 links. No em-dash in the body. Keep the post itself to 150-300 words.
+
+## Preconditions
+- `~/.claude/linkedin/voice.md` exists and is filled in.
+- A sources file exists, written during research, before any drafting.
+- `log.md` has been read, or the author has been asked what she published lately.
+
+## Done when (verify, do not assume)
+- `detect.py` returns PASS, `reach.py` returns CARRIES, `claims.py` returns BACKED.
+- The thesis does not repeat anything in the last ~10 log entries.
+- The first-comment text exists and holds every link the post would have carried.
+- 2-3 alternative hooks delivered, at least one broad and one technical.
+- Nothing was published. The output is text for her to paste.

@@ -27,3 +27,13 @@ voice (`~/.claude/linkedin/voice.md`).
 
 ## Output
 A ranked list: each comment, its bucket, and the reply to paste.
+
+## Preconditions
+- The comments under her own post are pasted.
+- `voice.md` exists.
+
+## Done when (verify, do not assume)
+- Every comment is in exactly one bucket: lead, substance, peer, support, noise.
+- Replies are ordered by bucket, leads first.
+- Each reply adds, asks, or moves it forward, and clears four words.
+- Anything inside the 60-90 minute window was flagged as urgent.

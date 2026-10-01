@@ -32,3 +32,11 @@ to hand to `li-post`.
 ## Output
 Mode 1: the questions, then the updated Story Bank section.
 Mode 2: the five questions, then the filled post spine.
+
+## Preconditions
+- Nothing. This skill exists precisely for when there is no material yet.
+
+## Done when (verify, do not assume)
+- Every line written to the story bank is something she actually said.
+- No number appears that she did not state. Nothing inferred, nothing rounded up.
+- In topic mode, the output is a usable post spine: hook candidate, one idea, anchor, trade-off, takeaway.

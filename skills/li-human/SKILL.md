@@ -93,3 +93,12 @@ and raise burstiness and concreteness.
 The scores are local heuristics, not GPTZero or Originality. They catch what
 those tools key on; they do not promise their verdict. The point is a draft
 that reads like a person wrote it, because one did.
+
+## Preconditions
+- A draft file exists. For `claims.py`, a sources file exists too.
+
+## Done when (verify, do not assume)
+- `detect.py` PASS: >=70 overall **and** no single signal under 55.
+- `reach.py` CARRIES: zero FAIL rows.
+- `claims.py` BACKED: zero unbacked claims.
+- Any failure was fixed at the source and the gate re-run, not explained away in a caveat.

@@ -28,3 +28,13 @@ a single claim, it is a text post (`li-post`), not a carousel.
 1. Slide-by-slide copy (numbered).
 2. The post caption (hook + context + sources).
 3. A PDF to upload (build it from the slide copy; 1080x1350 portrait works well).
+
+## Preconditions
+- `voice.md` exists. The idea genuinely has a sequence; a single claim is a text post.
+- Research done and written to a sources file.
+
+## Done when (verify, do not assume)
+- Cover slide states the hook in <=6 words plus one promise.
+- Every slide carries exactly one idea, headline <=7 words, body <=25 words.
+- The caption passes the three gates, and carries no link.
+- A PDF exists at 1080x1350, not just slide text.

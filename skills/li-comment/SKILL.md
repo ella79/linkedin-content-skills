@@ -27,3 +27,13 @@ their voice (`~/.claude/linkedin/voice.md`) that adds something.
 
 ## Output
 The comment, copy-ready, plus one shorter alternative.
+
+## Preconditions
+- The post being commented on is pasted. Never scraped from the feed.
+- `voice.md` exists.
+
+## Done when (verify, do not assume)
+- The comment type was chosen from what the post actually says, and named.
+- It adds a mechanism, a counter-case, a real data point or a specific question.
+- Nothing generic: no "Great post", no praise-only, no emoji-only.
+- If there was nothing true to add, that was said rather than manufactured.

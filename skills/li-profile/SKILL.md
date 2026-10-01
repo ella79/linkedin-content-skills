@@ -31,3 +31,12 @@ The author pastes their current headline, About section, experience bullets, and
 2. Rewrites in **fix-first order** (lowest scores first): the current text vs the
    proposed text, so the author approves before changing anything.
 3. Run `li-human` on every rewrite. No invented numbers.
+
+## Preconditions
+- Current headline, About and experience are pasted.
+
+## Done when (verify, do not assume)
+- All 12 rubric items scored with a one-line reason each, plus the average.
+- Rewrites ordered lowest score first, not top to bottom.
+- Every rewrite shown as current vs proposed, so she approves before anything changes.
+- No invented numbers in any rewrite.

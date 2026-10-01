@@ -23,3 +23,12 @@ they want on their radar). Never scrape the feed.
 ## Output
 A table: who/what, why them, the comment angle. Hand each row to `li-comment`
 when it is time to write. Spread them across the week; feed `li-plan`.
+
+## Preconditions
+- Candidate posts or names are pasted. Never scraped.
+- `voice.md` exists, so relevance is judged against her actual audience.
+
+## Done when (verify, do not assume)
+- ~10 entries, each with a reason and the `li-comment` angle that fits.
+- Anything where she would have to fake interest was dropped, not padded.
+- Spread across the week and handed to `li-plan`.

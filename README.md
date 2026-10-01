@@ -1,6 +1,6 @@
 # linkedin-content-skills
 
-Fifteen Claude skills that run a LinkedIn presence from the draft side: write
+Sixteen Claude skills that run a LinkedIn presence from the draft side: write
 posts, carousels, comments, replies and outreach, plan the week, audit what
 shipped, and keep everything in your own voice. **Nothing posts to LinkedIn.**
 Every skill produces copy-ready text you paste yourself.
@@ -17,6 +17,9 @@ sounding like a template.
 - **Grounded.** The writing skills research the web first and never invent
   numbers about you.
 - **No auto-posting.** Drafts only. You stay in control of your account.
+- **Every skill verifies itself.** Each one declares what it needs before it
+  starts and what has to be true before it reports done, so finishing is a check
+  rather than a feeling.
 - **It will not repeat you.** Every post and carousel checks the log of what you
   already published and refuses to re-argue the same thesis. Publishing writes the
   log back, which is also what the audit reads.
@@ -24,6 +27,7 @@ sounding like a template.
 ## The skills
 | Command | What it does |
 |---|---|
+| `li-router` | The entry point. Works out which skill a request is, checks its preconditions, runs the chain, verifies before calling it done. |
 | `li-post` | One idea into a post. 3 hook options from 21 formulas, one draft, humanized. |
 | `li-carousel` | Document posts. Slide-by-slide copy, a cover that earns the swipe, a PDF. |
 | `li-repurpose` | One video, article or transcript into 4-6 posts that each stand alone. |

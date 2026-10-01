@@ -82,3 +82,12 @@ shows a mechanism; motion added for decoration just costs file size.
 A designed card can read as marketing, and a technical reader discounts
 marketing. When the post makes a claim that an artefact can prove, show the
 artefact. The card is there to make the claim visible, not to dress it up.
+
+## Preconditions
+- The post text exists, so the image can carry its claim rather than decorate it.
+
+## Done when (verify, do not assume)
+- Size is 1080x1350 or 1080x1080. Landscape only with a stated reason.
+- The layout differs from the last card produced.
+- If animated: under 5MB and 400 frames, and the **first frame is complete and readable** on its own, because it is what shows before playback.
+- An MP4 was used if the point was video distribution, since a GIF is treated as an image.

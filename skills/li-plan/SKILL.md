@@ -30,3 +30,13 @@ The week on one page, so posting is a decision made once, not every morning.
 2. The engagement shortlist (who/what, why).
 3. Write it to `~/.claude/linkedin/plan.md` so `li-audit` can check it later.
 Never auto-post; each slot is still drafted and approved on its day.
+
+## Preconditions
+- `voice.md` exists with its topic list.
+- `log.md` read, or she was asked what went out recently.
+
+## Done when (verify, do not assume)
+- 2-5 slots, never closer than 4-6 hours, in practice a day apart.
+- ~70% of slots sit inside her two or three core topics.
+- No thesis or hook formula repeated from the last ~10 posts.
+- Written to `~/.claude/linkedin/plan.md`, and the engagement shortlist is attached.
