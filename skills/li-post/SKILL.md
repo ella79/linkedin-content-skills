@@ -50,13 +50,11 @@ writing is.
 - **Image, when there is one: 1080x1350 (4:5) or 1080x1080.** Portrait and square
   fill far more of a phone screen than landscape, and screen time is dwell time.
   1200x627 is the link-preview spec, not the feed-upload spec.
-- **Pick the image that proves the post, not one that decorates it.** There is no
-  rule that an account needs a house style, and a designed card can read as
-  marketing, which is the fastest way to lose a technical reader. Often the
-  strongest image is a real artefact: terminal output, a failing test, a diff, a
-  chart from actual data, a sketch. Use a designed card when the idea genuinely
-  needs typography. Either way, do not reuse a layout twice in a row; two
-  near-identical images days apart read as production, not as thinking.
+- **Build the image with `li-card`**, which renders at the documented sizes and
+  offers a stat, quote or terminal composition. Pick the one this post needs and
+  never the one used last time. Often the strongest image is a real artefact,
+  terminal output or a failing test, because a designed card can read as
+  marketing and a technical reader discounts marketing.
 - **The first 30 minutes decide the ceiling.** The post goes to roughly 2-5% of the
   network first and only expands if 5-10% of them engage. Deliver a short golden
   hour plan with every post: when to publish, and two or three posts to comment on

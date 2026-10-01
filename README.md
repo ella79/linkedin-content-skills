@@ -1,6 +1,6 @@
 # linkedin-content-skills
 
-Fourteen Claude skills that run a LinkedIn presence from the draft side: write
+Fifteen Claude skills that run a LinkedIn presence from the draft side: write
 posts, carousels, comments, replies and outreach, plan the week, audit what
 shipped, and keep everything in your own voice. **Nothing posts to LinkedIn.**
 Every skill produces copy-ready text you paste yourself.
@@ -37,7 +37,8 @@ sounding like a template.
 | `li-interview` | Interviews you into a Story Bank so drafts stop saying `{{your number}}`. |
 | `li-hooks` | Takes apart a post that worked: formula, build, why, a blank template. |
 | `li-engagers` | The ~10 people and posts worth a real comment this week. |
-| `li-human` | The humanizer. Two scripts that run. Used by every writing skill. |
+| `li-card` | The post image, at the size the feed rewards. Portrait 1080x1350, stat / quote / terminal layouts. |
+| `li-human` | The humanizer plus the reach gate. Two scripts that run. Used by every writing skill. |
 
 ## Install
 Copy the skills into Claude Code, global or project-local.
