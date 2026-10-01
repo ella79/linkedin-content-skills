@@ -19,6 +19,9 @@ a single claim, it is a text post (`li-post`), not a carousel.
 - One idea per slide; if a slide needs two, split it.
 - Voice from `~/.claude/linkedin/voice.md`; real anchors from `story-bank.md`.
 - Run `li-human` on the slide copy and the caption.
+- Check `~/.claude/linkedin/log.md` first: do not rebuild a carousel around a
+  thesis the author already published.
+- After publishing, append the log line (date, slug, topic, hook formula, URL).
 
 ## Output
 1. Slide-by-slide copy (numbered).

@@ -17,6 +17,9 @@ sounding like a template.
 - **Grounded.** The writing skills research the web first and never invent
   numbers about you.
 - **No auto-posting.** Drafts only. You stay in control of your account.
+- **It will not repeat you.** Every post and carousel checks the log of what you
+  already published and refuses to re-argue the same thesis. Publishing writes the
+  log back, which is also what the audit reads.
 
 ## The skills
 | Command | What it does |

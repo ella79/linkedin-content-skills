@@ -1,6 +1,6 @@
 ---
 name: li-post
-description: Turn one idea into a LinkedIn post. Researches the web first, writes a 5-second hook with three alternatives from a 21-formula cheat-sheet, one full draft, humanized before you see it. Reads voice.md and story-bank.md. Never auto-posts.
+description: Turn one idea into a LinkedIn post. Researches the web first, checks the log so it never re-argues a post you already published, writes a 5-second hook with three alternatives from a 21-formula cheat-sheet, one full draft, humanized before you see it. Reads voice.md and story-bank.md. Never auto-posts.
 ---
 
 # li-post
@@ -16,6 +16,9 @@ the author to fill `templates/voice.md` first; do not invent a voice.
 - Never invent metrics about the author. Industry stats only with attribution.
 - Write in the language and register declared in `voice.md` (English by default).
 - Never auto-post. Deliver copy-ready text the author pastes themselves.
+- Never re-argue a post the author already published. Before drafting, read the
+  last ~10 entries in `~/.claude/linkedin/log.md` (and anything the author pastes).
+  If the thesis, the anchor or a line repeats, pick a different angle and say so.
 
 ## Hook (the 5-second test)
 LinkedIn shows ~210 characters on desktop, ~140 on mobile before "see more", so
@@ -45,6 +48,9 @@ honest trade-off. If a draft is a 7 or 8, revise before showing it.
 4. Self-check against the quality bar; revise if under 10/10.
 5. Run `li-human` (humanize.py + detect.py) until it reads clean.
 6. Deliver: the post, 2-3 alternative hooks, and a "Sources:" list.
+7. After the author publishes, append one line to `~/.claude/linkedin/log.md`:
+   date, title/slug, topic, the hook formula used, and the post URL. That log is
+   what `li-audit` reads and what step 2 of the next post checks against.
 
 ## Output
 Return (1) the post, copy-ready; (2) 2-3 alternative hooks (broad + technical);
