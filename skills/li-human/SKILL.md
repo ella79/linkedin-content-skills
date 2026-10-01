@@ -42,6 +42,23 @@ The five signals: **burstiness** (sentence-length variation), **specificity**
 person). PASS means it reads as human. Whether the idea is worth posting is a
 separate judgement, and that one is the author's.
 
+## The second gate: reach.py
+`detect.py` asks whether a draft reads as human. `reach.py` asks whether the feed
+will carry it at all, which is the question that decides how many people ever see
+the writing.
+
+```
+python3 ~/.claude/skills/li-human/reach.py draft.txt
+```
+
+It checks the mechanics, not the taste: hook length against the ~140 char mobile
+cut, a link in the body (50-70% less reach), 150-300 words for dwell, 0-2
+hashtags, and a closing question. It exits non-zero while anything FAILS, so a
+draft cannot quietly ship with a reach-killing mistake in it.
+
+Run both. A post that passes `detect.py` and fails `reach.py` is well written and
+will be seen by almost nobody.
+
 ## If Python is not available
 Apply the same rules by hand: delete zero-width/invisible chars, turn every
 em-dash into a comma or two sentences, strip the terms in `li-human/slop.json`,

@@ -66,7 +66,10 @@ honest trade-off. If a draft is a 7 or 8, revise before showing it.
 2. Research the web first; note 1-3 links to cite.
 3. Draft per the shape above.
 4. Self-check against the quality bar; revise if under 10/10.
-5. Run `li-human` (humanize.py + detect.py) until it reads clean.
+5. Run `li-human`: `humanize.py` and `detect.py` until it reads clean, then
+   `reach.py` until nothing FAILS. Both gates are mandatory. Reporting a draft as
+   ready without running them is not allowed, and neither gate predicts
+   engagement: they only remove the reasons a post gets buried or spotted.
 6. Deliver: the post, 2-3 alternative hooks, and a "Sources:" list.
 7. After the author publishes, append one line to `~/.claude/linkedin/log.md`:
    date, title/slug, topic, the hook formula used, and the post URL. That log is
