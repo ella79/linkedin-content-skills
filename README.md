@@ -11,9 +11,15 @@ sounding like a template.
 ## What makes it different
 - **Voice-agnostic.** The machinery is shared; your voice lives in one file
   (`voice.md`) that you fill in and keep private. Every skill reads it.
-- **A real humanizer.** Two scripts that actually run (`skills/li-human/humanize.py`,
-  `skills/li-human/detect.py`) strip invisible characters, em-dashes and 100+ slop phrases,
-  and score the draft on five human-vs-machine checks. Not vibes.
+- **Three gates that run, not advice.** `detect.py` scores the draft on five
+  human-vs-machine checks, `reach.py` checks what the feed actually penalises (hook
+  length, dwell length, hashtags, a question that takes a yes), `claims.py` refuses
+  any number that is not in your research file. `humanize.py` strips invisible
+  characters, em-dashes and 100+ slop phrases before any of them run. A failing gate
+  blocks the draft. It is not a caveat.
+- **A router in front.** `li-router` works out which skill a request is, checks that
+  skill's preconditions, runs the chain, and hands off to the next skill instead of
+  leaving you to remember the order.
 - **Grounded.** The writing skills research the web first and never invent
   numbers about you.
 - **No auto-posting.** Drafts only. You stay in control of your account.
@@ -56,14 +62,15 @@ delete the clone afterwards):
 git clone https://github.com/ella79/linkedin-content-skills.git
 cp -r linkedin-content-skills/skills/li-* ~/.claude/skills/
 ```
-The humanizer scripts live inside `skills/li-human/`, so they come along with the
-copy. Nothing else to wire up.
+The scripts live inside the skill folders that use them, so they come along with the
+copy: the four gates in `skills/li-human/`, the image renderer in `skills/li-card/`.
+Nothing else to wire up.
 
 Project-local: copy the same `skills/li-*` folders into your repo's
 `.claude/skills/`.
 
 No Claude Code at all? Paste any single `SKILL.md` at the top of a chat and it
-runs as a mode. You lose the two Python tools (most of the point of `li-human`),
+runs as a mode. You lose the Python scripts (most of the point of `li-human`),
 but the rest works.
 
 ## Then spend ten minutes on your voice
@@ -84,7 +91,10 @@ The repo ships only a blank template, so your topics stay in your private copy.
 repo. The repo ships only blank templates.
 
 ## Requirements
-- Python 3 for `skills/li-human/humanize.py` and `skills/li-human/detect.py` (standard library only).
+- Python 3 for the four `li-human` scripts (`humanize.py`, `detect.py`, `reach.py`,
+  `claims.py`). Standard library only.
+- Pillow for `skills/li-card/card.py`, which renders the post image:
+  `pip install pillow`. Everything else works without it.
 - Claude Code to run the skills as commands (optional, see above).
 
 ## No publishing step, on purpose
