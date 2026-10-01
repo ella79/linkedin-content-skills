@@ -19,6 +19,8 @@ the author to fill `templates/voice.md` first; do not invent a voice.
 - Never re-argue a post the author already published. Before drafting, read the
   last ~10 entries in `~/.claude/linkedin/log.md` (and anything the author pastes).
   If the thesis, the anchor or a line repeats, pick a different angle and say so.
+  If `log.md` does not exist yet, say so and ask the author for their last few
+  posts before drafting. Do not assume the slate is clean.
 
 ## Hook (the 5-second test)
 LinkedIn shows ~210 characters on desktop, ~140 on mobile before "see more", so

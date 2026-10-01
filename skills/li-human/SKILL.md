@@ -25,6 +25,23 @@ python3 ~/.claude/skills/li-human/detect.py draft.txt
   fingerprint, and voice. Higher is better. `detect.py before.txt after.txt`
   proves the delta.
 
+## What the score means (the bar for publishing)
+`detect.py` returns one of three verdicts, and the rule is strict on purpose:
+
+- **PASS** - overall >= 70 **and** every one of the five signals >= 55. Ship it.
+- **REVIEW** - overall >= 50 but one signal is below 55. Fix that signal, not the average.
+- **FLAGGED** - overall < 50. Rewrite.
+
+The weakest signal drags the verdict, because a detector only needs one tell. An
+overall of 67 with specificity at 48 still fails. The script exits non-zero unless
+the verdict is PASS, so it can gate a pipeline.
+
+The five signals: **burstiness** (sentence-length variation), **specificity**
+(concrete, checkable detail), **slop density** (stock phrases), **fingerprint**
+(invisible characters, em-dashes, curly quotes), **voice** (contractions, first
+person). PASS means it reads as human. Whether the idea is worth posting is a
+separate judgement, and that one is the author's.
+
 ## If Python is not available
 Apply the same rules by hand: delete zero-width/invisible chars, turn every
 em-dash into a comma or two sentences, strip the terms in `li-human/slop.json`,
