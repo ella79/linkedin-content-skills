@@ -46,6 +46,29 @@ python3 ~/.claude/skills/li-card/card.py --layout terminal \
   --file run.txt --kicker "both gates, on this exact post" --out card.png
 ```
 
+## Which format to reach for (measured, not taste)
+An analysis of 57,809 posts ranks the formats like this:
+
+| Format | Avg likes | Avg comments |
+|---|---|---|
+| Video | 146 | 28 |
+| Image | 127 | **35** |
+| Carousel | 100 | 29 |
+| Text only | 65 | 16 |
+
+Motion stops the scroll, so **video wins attention**. A still image wins the
+**conversation**, and an image with a strong hook is the highest-yield combination
+for replies. Text alone is the weakest for reactions.
+
+So pick by what the post needs. If the goal is to be noticed, use motion. If the
+goal is comments, and the post ends on a question, a still image earns more of
+them. Do not use motion for its own sake.
+
+**Important:** an MP4 is classified as native video; a GIF is treated as an image.
+If the point of the motion is to get video distribution, export MP4, not GIF.
+Encode at 4:5, 1080x1350, h264 with yuv420p so it plays everywhere, and hold the
+last frame for a second so the end state is what a paused viewer sees.
+
 ## Animated images
 LinkedIn animates a GIF in the feed only while it stays **under 5MB and under
 400 frames**. Past either limit it freezes to the first frame, which is worse
