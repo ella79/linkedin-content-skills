@@ -35,7 +35,25 @@ line 1 must survive alone.
 ## Draft shape
 Hook, then 3-6 short points or a tight narrative, an honest "where it is not
 magic" note when relevant, a takeaway the reader can act on, one soft question
-as CTA, 4-6 hashtags. Dense bullets go below the fold.
+as CTA. Dense bullets go below the fold.
+
+## Distribution rules (how the feed actually treats a post)
+These are mechanics, not style. Breaking them costs reach no matter how good the
+writing is.
+
+- **No link in the body. Ever.** A post with an external link reaches 50-70% fewer
+  people. Put the URL in a separate first comment and deliver that comment text
+  alongside the post, so the author pastes it right after publishing.
+- **150-300 words.** Long enough to earn the "see more" click, short enough to be
+  read. Dwell time carries the most weight of any ranking signal.
+- **0-2 hashtags.** They test identical to 5+, so they buy nothing. Never a wall.
+- **Image, when there is one: 1080x1350 (4:5) or 1080x1080.** Portrait and square
+  fill far more of a phone screen than landscape, and screen time is dwell time.
+  1200x627 is the link-preview spec, not the feed-upload spec.
+- **The first 30 minutes decide the ceiling.** The post goes to roughly 2-5% of the
+  network first and only expands if 5-10% of them engage. Deliver a short golden
+  hour plan with every post: when to publish, and two or three posts to comment on
+  first (see `li-engagers`), so the author is visible when the window is open.
 
 ## Quality bar (aim 10/10)
 Substantive, specific, worth the target reader's time. Technically credible:
@@ -55,6 +73,7 @@ honest trade-off. If a draft is a 7 or 8, revise before showing it.
    what `li-audit` reads and what step 2 of the next post checks against.
 
 ## Output
-Return (1) the post, copy-ready; (2) 2-3 alternative hooks (broad + technical);
-(3) Sources as markdown links. No em-dash in the body. Under ~1,900 characters
-unless it is a carousel or long form.
+Return (1) the post, copy-ready; (2) the **first comment** text carrying the link
+and sources, to paste immediately after publishing; (3) 2-3 alternative hooks
+(broad + technical); (4) a two-line golden hour plan; (5) Sources as markdown
+links. No em-dash in the body. Keep the post itself to 150-300 words.

@@ -22,6 +22,7 @@ a single claim, it is a text post (`li-post`), not a carousel.
 - Check `~/.claude/linkedin/log.md` first: do not rebuild a carousel around a
   thesis the author already published.
 - After publishing, append the log line (date, slug, topic, hook formula, URL).
+- Keep links out of the caption; put them in the first comment. Slides are 1080x1350.
 
 ## Output
 1. Slide-by-slide copy (numbered).

@@ -8,8 +8,14 @@ description: Plan the week. What to post, when to post it, and a short list of p
 The week on one page, so posting is a decision made once, not every morning.
 
 ## Method
-- Cadence: 2-5 posts a week with at least 24h spacing (what LinkedIn data
-  supports). Default Monday / Wednesday / Friday unless `voice.md` says otherwise.
+- Cadence: 2-5 posts a week, never less than 4-6 hours apart and in practice a day
+  apart. Three posts a week that land beat daily posts that do not. Default Monday /
+  Wednesday / Friday unless `voice.md` says otherwise.
+- **Hold a topic core.** The feed sorts an author into professional cohorts by topic,
+  and consistency inside one area compounds into better distribution over time.
+  Keep roughly 70% of the plan inside the author's two or three core topics and
+  treat the rest of `voice.md`'s list as occasional. Rotating evenly across ten
+  topics trains no cohort and costs reach.
 - Rotate topics from `voice.md` and hook formulas from `li-human/hooks.json`.
   Read `~/.claude/linkedin/log.md` and rule out every thesis and hook formula used
   in the last ~10 posts, not just last week's.
